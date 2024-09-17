@@ -19,3 +19,8 @@ elif(hour>=12 and hour<17):
     print("Good Afternoon Raju!")
 elif(hour>=17 and hour<0):
     print("Good Night Raju!")
+
+# Time and Date
+import time
+t = time.strftime("%Z\n%H:%M:%S %p\n%j Days\n%D %h\n%A %B")
+print(t)
